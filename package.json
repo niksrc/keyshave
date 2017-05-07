@@ -1,9 +1,9 @@
 {
-  "name": "trim-keys",
+  "name": "keyshave",
   "version": "0.0.0",
-  "description": "trim object keys to reduce weight",
+  "description": "trim object keys to shave off some bytes",
   "license": "MIT",
-  "repository": "niksrc/trim-keys",
+  "repository": "niksrc/keyshave",
   "author": {
     "name": "Nikhil Srivastava",
     "email": "niksrc@gmail.com",
@@ -19,7 +19,11 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "trim",
+    "keys",
+    "premature optimization",
+    "trim keys",
+    "object trim"
   ],
   "dependencies": {},
   "devDependencies": {

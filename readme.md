@@ -1,4 +1,4 @@
-# trim-keys [![Build Status](https://travis-ci.org/niksrc/trim-keys.svg?branch=master)](https://travis-ci.org/niksrc/trim-keys) [![Coverage Status](https://coveralls.io/repos/github/niksrc/trim-keys/badge.svg?branch=master)](https://coveralls.io/github/niksrc/trim-keys?branch=master)
+# keyshave [![Build Status](https://travis-ci.org/niksrc/keyshave.svg?branch=master)](https://travis-ci.org/niksrc/keyshave) [![Coverage Status](https://coveralls.io/repos/github/niksrc/keyshave/badge.svg?branch=master)](https://coveralls.io/github/niksrc/keyshave?branch=master)
 
 > trim object keys to shave some bytes 🔪
 
@@ -6,23 +6,23 @@
 ## Install
 
 ```
-$ npm install --save trim-keys
+$ npm install --save keyshave
 ```
 
 
 ## Usage
 
 ```js
-const trimKeys = require('trim-keys');
+const keyShave = require('keyshave');
 
-trimKeys({ home: 'Earth', isGlobalWarming: true });
+keyShave({ home: 'Earth', isGlobalWarming: true });
 //=> { h: 'Earth', i: true }
 ```
 
 
 ## API
 
-### trimKeys(input)
+### keyShave(input)
 
 #### input
 
