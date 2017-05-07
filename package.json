@@ -1,0 +1,40 @@
+{
+  "name": "trim-keys",
+  "version": "0.0.0",
+  "description": "trim object keys to reduce weight",
+  "license": "MIT",
+  "repository": "niksrc/trim-keys",
+  "author": {
+    "name": "Nikhil Srivastava",
+    "email": "niksrc@gmail.com",
+    "url": "niksrc.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "xo": {
+    "esnext": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
